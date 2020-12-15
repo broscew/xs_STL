@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Data_Structures">
+      <UniqueIdentifier>{48b3907d-4492-4982-b832-d1093650bfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms">
+      <UniqueIdentifier>{597f0b4c-ef66-4204-a57e-a84a97d7982c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utilities">
+      <UniqueIdentifier>{6a883d84-1154-4ad5-b327-62966045d294}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xs_stl\Algorithms\xs_sort.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\algorithms\xs_algorithms.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\data_structures\xs_cxstring.h">
+      <Filter>Header Files\Data_Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\data_structures\xs_cxarray.h">
+      <Filter>Header Files\Data_Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\data_structures\xs_iterators.h">
+      <Filter>Header Files\Data_Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\data_structures\xs_hashmap.h">
+      <Filter>Header Files\Data_Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\algorithms\xs_hash.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\utilities\xs_reflection.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\utilities\xs_assert.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="xs_stl\data_structures\xs_tuple.h">
+      <Filter>Header Files\Data_Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

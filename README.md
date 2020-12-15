@@ -1,2 +1,3 @@
 # xs_STL
-Personal Repository for custom data structure and algorithms. Mostly for understanding.
+Repository for custom data structure and algorithms. 
+Written mostly for understanding concepts and trying out new features of C++.
